@@ -19,6 +19,7 @@ Player player = player;
   public:
     uint8_t x = 0;
     uint8_t y = 0;
+    uint8_t inc = 0;
     bool active;
     bool randomize = true;
 };
@@ -30,6 +31,7 @@ struct Asteroid
   public:
     uint8_t x = 0;
     uint8_t y = 0;
+    uint8_t inc = 0;
     bool active;
     bool randomize = true;
 };
